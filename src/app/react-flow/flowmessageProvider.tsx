@@ -6,7 +6,7 @@ const FlowmessageProvider = ({data:{name},id}:NodeProps<{name:String,code:String
     const {setNodes}  = useReactFlow();
   return (
     <>
-        <section className='pay-providers'>
+        <section className='flow-providers'>
             <span>{name} &nbsp;</span>
             <MdDelete size={'2rem'} color='red' onClick={()=>setNodes((prev)=>prev.filter((node)=>node.id!==id))}></MdDelete>
             </section>
