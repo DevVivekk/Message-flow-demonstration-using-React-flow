@@ -1,0 +1,32 @@
+.react-flow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    height: 100vh;
+    min-width: 49rem;
+    position: relative;
+}
+.button-div{
+    width: 100vw;
+    min-width: 50rem;
+    height: 6rem;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.button-div>button{
+    width: 14rem;
+    height: 4rem;
+    border-radius: 6px;
+    margin-right: 4rem;
+}
+.flow-two-side{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}

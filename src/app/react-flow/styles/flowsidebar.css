@@ -1,0 +1,10 @@
+.sidebar{
+    width: 30rem;
+    background-color: white;
+    height: 100%;
+}
+.side-input{
+    margin-top: 4rem !important;
+    width: 30rem !important;
+    height: 5rem !important;
+}
